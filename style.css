@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
+
+body{
+
+    background-color: rgb(255, 160, 122);
+    overflow: hidden;
+
+}
+
+.mensaje{
+
+    background-color: rgb(240, 128, 128);
+
+    position: absolute;
+
+    top: 20%;
+    left: 50%;
+
+    width: 600px;
+    height: 600px;
+
+    transform: translateX(-50%);
+    border-radius: 100px;
+    text-align: center;
+}
+
+.mensaje2{
+    
+    background-color: rgb(250, 128, 114);
+    
+    position: absolute;
+    
+    top: 30px;
+    left: 50%;
+    
+    width: 700px;
+    height: 110px;
+    
+    transform: translateX(-50%);
+    border-radius: 80px;
+
+
+}
+
+.texto{
+
+    color: rgb(248, 249, 249);
+
+    font-size: 30px;
+
+    padding-top: 60px;
+    padding: 25px;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.texto2{
+
+    color: rgb(248, 249, 249);
+
+    font-size: 30px;
+
+    padding-left: 25%;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.image1{
+    position: relative;
+
+    top: 550px;
+    right: 220px;
+
+    width: 700px;
+    height: 600px;
+
+    transform: rotate(30deg);
+}
+
+.image2{
+    position: relative;
+
+    top: 400px;
+    left: 800px;
+
+    width: 350px;
+    height: 300px;
+
+    transform: rotate(-30deg);
+}
+
+.image3{
+    position: absolute;
+
+    top: 350px;
+    left: 200px;
+
+    width: 250px;
+    height: 200px;
+
+    transform: rotate(10deg);
+}
+
+.image4{
+    position: relative;
+
+    top: 350px;
+    right: 600px;
+
+    width: 250px;
+    height: 200px;
+
+    transform: rotate(10deg);
+}
+
+.image5{
+    position: relative;
+
+    top: 30px;
+    right: 10px;
+
+    width: 250px;
+    height: 200px;
+
+    transform: rotate(-10deg);
+}
+
+
